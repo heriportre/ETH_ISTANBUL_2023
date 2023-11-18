@@ -52,7 +52,7 @@ export default function Signature() {
             <h1>This page will be specifically for Messi&apos;s minting page or another famous player&apos;s. </h1>
 
             <h1>To sign the forma, he should mint a signature NFT and transfer it to  the Forma.</h1>
-              <div className="relative bg-gray-800 text-white p-6 rounded-lg shadow-md max-w-2xl text-center">
+              <div className="relative text-white p-6 rounded-lg shadow-md max-w-2xl text-center" style={{background: "white"}}>
                 <div className="m-5">
                   <Image 
                     src="/imza.png"
