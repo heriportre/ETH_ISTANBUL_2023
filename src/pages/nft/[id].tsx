@@ -24,8 +24,8 @@ function NFTDetailsPage() {
     }, [router.query]);
 
     return (
-        <div className="flex flex-col w-screen h-screen justify-center items-center mt-20">
-          <h1 className="text-6xl font-semibold my-4 text-center mt-20">
+        <div className="flex flex-col w-screen h-screen justify-center items-center mt-40">
+          <h1 className="text-6xl font-semibold my-4 text-center mt-40">
             NFT Details
           </h1>
       
