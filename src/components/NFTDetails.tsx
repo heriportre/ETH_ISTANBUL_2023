@@ -4,8 +4,8 @@ import React, { FC } from "react";
 
 const NFTDetails: FC<NFT> = (nft) => {
     return (
-        <div className="bg-gray-800 text-white p-6 rounded-lg shadow-md w-full max-w-2xl">
-            <div className="flex w-full justify-between mb-4">
+        <div className="bg-gray-800 text-white p-6 rounded-lg shadow-md w-full max-w-2xl mt-5">
+            <div className="flex w-full justify-between ">
                 <h2 className="text-2xl font-bold">{nft.metadata.name}</h2>
                 <h2 className="text-2xl font-bold ">{`ID:${nft.metadata.id}`}</h2>
             </div>

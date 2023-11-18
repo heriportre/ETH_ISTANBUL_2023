@@ -25,7 +25,7 @@ function NFTDetailsPage() {
 
     return (
         <div className="flex flex-col w-screen h-screen justify-center items-center mt-20">
-          <h1 className="text-6xl font-semibold my-4 text-center">
+          <h1 className="text-6xl font-semibold my-4 text-center mt-20">
             NFT Details
           </h1>
       
