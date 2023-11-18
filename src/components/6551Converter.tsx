@@ -69,7 +69,7 @@ const Converter6551: FC<TBAProps> = ({ id }) => {
         </button>
         <div>
         {TBAccount && (
-            <p>Wallet for this NFT: {TBAccount}</p>
+            <p className="mb-10">Wallet for this NFT: {TBAccount}</p>
         )}
         </div>
         </div>

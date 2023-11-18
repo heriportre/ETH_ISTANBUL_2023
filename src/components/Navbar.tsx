@@ -12,7 +12,8 @@ const Navbar = () => {
                     src="/logo.png"
                     alt="messi signature"
                     height="32"
-                    width="100"
+                    width="40"
+                    className="ml-5"
                 />
             </div>
             <div className="flex gap-x-20">
