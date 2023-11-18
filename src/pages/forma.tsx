@@ -22,9 +22,9 @@ export default function Forma() {
   const handleMint = async (event: React.FormEvent) => {
     event.preventDefault();
 
-    const name = "CR7 Shirt";
-    const description = "This is for the memorial of the old legend, Cr7; which everyone knows for his hard work.";
-    const image = "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt250301c1cdcbb6f8/635258755ec95d10f430b9fd/Cristiano_Ronaldo_dark.jpg?auto=webp&format=pjpg&width=3840&quality=60";
+    const name = "messi Shirt";
+    const description = "This is for the memorial of the old legend, messi; which everyone knows for his hard work.";
+    const image = "https://www.pngitem.com/pimgs/m/375-3750385_argentina-football-jersey-2018-messi-hd-png-download.png";
 
     const metadata: MintMetadata = {
       metadata: {
@@ -55,8 +55,8 @@ export default function Forma() {
       <div className="relative bg-gray-800 text-white p-6 rounded-lg shadow-md max-w-2xl text-center">
         <div className="m-5">
           <Image 
-            src="/shirt.webp"
-            alt="Cr7 signature"
+            src="/forma.jpeg"
+            alt="messi signature"
             height="100"
             width="350"
           />
@@ -66,7 +66,7 @@ export default function Forma() {
           onClick={handleMint}
           disabled={isLoading}
         >
-          {isLoading ? 'Minting...' : 'Mint Cr7 Jersey'}
+          {isLoading ? 'Minting...' : 'Mint messi Jersey'}
         </button>
       </div>
       </div>
